@@ -1,0 +1,10 @@
+.env
+.chroma/
+results/
+results_selftest/
+snapshots/
+snapshots_zip/
+__pycache__/
+*.pyc
+.DS_Store
+Knowledge-Hackathon-Assignment.pdf

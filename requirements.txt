@@ -1,0 +1,8 @@
+numpy
+rank-bm25
+langchain-text-splitters
+model2vec
+openai
+python-dotenv
+flashrank
+chromadb
