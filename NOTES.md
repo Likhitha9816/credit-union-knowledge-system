@@ -1,12 +1,12 @@
 # NOTES
 
 ## Results
-On the public eval (40 questions) my solution scores **about 0.80–0.81**. I ran it three times and got 0.8093, 0.8016 and 0.8093. The score moves a little between runs even with the same code, because the LLM doesn't word every answer the same way.
+On the public eval (40 questions) my solution scores **about 0.80–0.82**. Across five runs I got 0.8016, 0.8093 (three times) and 0.8248. The score moves a little between runs even with the same code, because the LLM doesn't word every answer the same way.
 
 - All 3 "should refuse" questions are refused correctly (should_refuse 1.00)
 - No stale values in any answer (0 trap hits)
 - Repeated and reworded questions get the same answer (consistency 1.0)
-- Answers take about 2.3–2.7 seconds (p95)
+- Answers take about 2.3–3.1 seconds (p95)
 - Conflicts on the selftest: found the one known conflict and picked the right value (F1 1.0, resolution 1.0)
 
 ## How to run it

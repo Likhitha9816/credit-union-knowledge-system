@@ -1,3 +1,5 @@
+> These are my first rules, written while reading the snapshots before I built anything. Some changed after testing (for example, news articles are used, and the newest one wins). Lines marked "(verify)" were things I still had to check at the time. The final rules are in NOTES.md.
+
 # How the system decides
 
 ## Rule 1: Which page wins
